@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/f2e7210208.js" crossorigin="anonymous"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+
+    <style>
+        .font-poppins{
+            font-family: "Poppins", serif;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 bg-white py-10">
+                <div class="flex-1">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 px-2 m-auto shadow">
+                      <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-3xl font-bold pl-6">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-2 ml-8 text-xl">
+                    <li><a><span class="text-[#FF4240]">Home</span></a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                   <a href="#"><i class="fa-solid fa-magnifying-glass mr-5 text-xl text-gray-500"></i></a>
+                  <a class="btn bg-[#FF4240] mr-9 w-40 text-white text-xl ">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+
+
+        <section class="w-4/5 mx-auto">
+            <div class="carousel  ">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img
+                    src="./Images/1.png"
+                    class="w-full" />
+
+                  <div class="absolute left-5 right-5 bottom-[5px] flex -translate-y-1/2 transform justify-start gap-3">
+                    <a href="#slide4" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-gray-800 rounded-full border-none text-white text-xl">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 bottom-[5px] flex -translate-y-1/2 transform justify-start gap-3 ">
+                    <a href="#slide1" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 bottom-[5px] flex -translate-y-1/2 transform justify-start gap-3 ">
+                    <a href="#slide2" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 bottom-[5px] flex -translate-y-1/2 transform justify-start gap-3 ">
+                    <a href="#slide3" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-gray-800 border-none text-white text-xl">❯</a>
+                  </div>
+                </div>
+              </div>
+                 
+
+              <!-- ..............box starts............. -->
+             <div class=" md:absolute mr-2 -bottom-60  md:bottom-7  md:right-44 bg-black bg-opacity-80 w-full md:w-2/5 text-white py-14 rounded-lg pl-5 sm:overscroll-none">
+                <h2 class="text-xl font-bold">Meet all the heroes from the field</h2>
+                <p class="text-sm mt-2">
+                  Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin.
+                </p>
+              </div>
+              <!-- ...........box end........... --> 
+              
+        </section>
