@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Hockey Responsive Assignment Tailwind CSS</title>
+    <!-- ------Goggle Font Link---------- -->
     <script src="https://kit.fontawesome.com/f2e7210208.js" crossorigin="anonymous"></script>
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- --------Tailwind css & daisyui link------ -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://cdn.tailwindcss.com"></script>
 
 
 
     <style>
-        .font-poppins{
-            font-family: "Poppins", serif;
+       
+        .font-manrope{
+          font-family: "Manrope", serif;
         }
        
     </style>
 </head>
-<body>
+<body class="font-manrope">
 
     <header>
         <nav>
@@ -293,7 +296,7 @@
             <p class="text-gray-800 pb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
           </div>
 
-          <div class="flex space-x-5">
+          <div class="md:flex md:space-x-5">
             <p class="text-2xl font-semibold text-[#FF4240]">Price - $22.00</p>
 
             <div class="flex space-x-3 ">
@@ -358,7 +361,7 @@
      <p class="text-gray-800 pb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
    </div>
 
-   <div class="flex space-x-5">
+   <div class="md:flex md:space-x-5">
      <p class="text-2xl font-semibold text-[#FF4240]">Price - $22.00</p>
 
      <div class="flex space-x-3 ">
@@ -423,7 +426,7 @@
             <p class="text-gray-800 pb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
           </div>
 
-          <div class="flex space-x-5">
+          <div class="md:flex md:space-x-5">
             <p class="text-2xl font-semibold text-[#FF4240]">Price - $22.00</p>
 
             <div class="flex space-x-3 ">
@@ -438,8 +441,6 @@
               </div>
             </div>
           </div>
-
-
 
         </div>
 
@@ -491,7 +492,7 @@
      <p class="text-gray-800 pb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
    </div>
 
-   <div class="flex space-x-5">
+   <div class="md:flex md:space-x-5">
      <p class="text-2xl font-semibold text-[#FF4240]">Price - $22.00</p>
 
      <div class="flex space-x-3 ">
@@ -558,7 +559,7 @@
     <p class="text-gray-800 pb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
   </div>
 
-  <div class="flex space-x-5">
+  <div class="md:flex md:space-x-5">
     <p class="text-2xl font-semibold text-[#FF4240]">Price - $22.00</p>
 
     <div class="flex space-x-3 ">
@@ -626,7 +627,7 @@
 <p class="text-gray-800 pb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
 </div>
 
-<div class="flex space-x-5">
+<div class="md:flex md:space-x-5">
 <p class="text-2xl font-semibold text-[#FF4240]">Price - $22.00</p>
 
 <div class="flex space-x-3 ">
@@ -845,7 +846,7 @@
                </label>
              </div>
      
-             <div>
+             <div class="pt-5">
                <button class="btn w-full bg-[#FF4240] text-white text-xl">Send Message</button>
              </div>
            </div>
@@ -946,62 +947,6 @@
   </nav>
 
 </footer> 
-
-  <div class="text-center mb-8">
-    <h1 class="text-2xl font-semibold">Get In Touch</h1>
-    <p class="mt-2 text-sm">
-      Dit amet consectetur. Condimentum <br />
-      adipiscing aliquam turpis placerat dolor. Purus <br />
-      urna in sit nullam proin.
-    </p>
-
-    <div class="mt-4 space-y-2">
-      <div class="flex justify-center items-center gap-2">
-        <i class="fa-regular fa-message text-[#FF4240]"></i>
-        <p>hockeys@support.com</p>
-      </div>
-      <div class="flex justify-center items-center gap-2">
-        <i class="fa-solid fa-phone text-[#FF4240]"></i>
-        <p>(+62) 123-321-543</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-    <nav>
-      <h6 class="font-semibold mb-4">Company</h6>
-      <ul class="space-y-2">
-        <li><a class="hover:underline" href="#">About us</a></li>
-        <li><a class="hover:underline" href="#">Leadership</a></li>
-        <li><a class="hover:underline" href="#">Careers</a></li>
-        <li><a class="hover:underline" href="#">News & Article</a></li>
-        <li><a class="hover:underline" href="#">Legal Notice</a></li>
-      </ul>
-    </nav>
-
-    <nav>
-      <h6 class="font-semibold mb-4">Support</h6>
-      <ul class="space-y-2">
-        <li><a class="hover:underline" href="#">Help Center</a></li>
-        <li><a class="hover:underline" href="#">FAQ</a></li>
-        <li><a class="hover:underline" href="#">Ticket Support</a></li>
-        <li><a class="hover:underline" href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-
-    <nav>
-      <h6 class="font-semibold mb-4">Services</h6>
-      <ul class="space-y-2">
-        <li><a class="hover:underline" href="#">Academy</a></li>
-        <li><a class="hover:underline" href="#">Group Lesson</a></li>
-        <li><a class="hover:underline" href="#">Private Lesson</a></li>
-        <li><a class="hover:underline" href="#">Hockeys for kids</a></li>
-        <li><a class="hover:underline" href="#">Hockeys for Adult</a></li>
-      </ul>
-    </nav>
-  </div>
-</footer> -->
-
 
 </header>
 </body>
